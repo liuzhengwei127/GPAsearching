@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Management</title>
+<style>
+div.manage_div
+{
+    width: 500px;
+    height: 200px;
+    margin:100px auto;
+    border: solid 2px;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript">
+var is_login = sessionStorage.getItem('LOGIN');
+if (is_login != 1) location = "Manage_login.html";
+</script>
+<div class = "manage_div">
+<div style = "margin: 20px 20px">
+<form action="upload_file.php" method="post" enctype="multipart/form-data">
+成绩学期：
+<select name="upload_year">
+    <option value="2017-2018">2017-2018</option>
+    <option value="2018-2019">2018-2019</option>
+    <option value="2019-2020">2019-2020</option>
+    <option value="2020-2021">2020-2021</option>
+    <option value="2021-2022">2021-2022</option>
+    <option value="2022-2023">2022-2023</option>
+</select>
+<select name="upload_semester">
+    <option value="1">第一学期</option>
+    <option value="2">第二学期</option>
+</select><br>
+<p></p>
+上传成绩文件：<input type="file" name="file" id="file"><br><p></p>
+<input type="submit" name="submit" value="提交"><p></p>
+</form>
+<button onclick="sessionStorage.setItem('LOGIN', 0); location = 'Manage_login.html'">返回</button>
+</div>
+</div>
+
+</body>
+</html>
