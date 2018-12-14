@@ -1,0 +1,12 @@
+App({
+  globalData:{
+    studentName:null,//姓名
+    studentID:null,//学号
+    score:null,//学积分
+    scoreRank:null,//学积分排名
+    credit:null,//核心课程总学分
+    updateTime:null,//最后更新时间
+    openid:null,
+    code:null
+  }
+})
