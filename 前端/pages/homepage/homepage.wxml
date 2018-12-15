@@ -1,0 +1,8 @@
+<!--pages/homepage/homepage.wxml-->
+<view class='container'>
+  <image class="about-banner" src="/image/sjtu.png"></image>
+   <text>上海交通大学\n</text>
+   <text>软件学院\n</text>
+   <text>学积分排名查询系统</text>
+   <button class="homepage_button"  bindtap="a"> 查询成绩 </button>
+</view>

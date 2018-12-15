@@ -1,0 +1,29 @@
+/* pages/homepage/homepage.wxss */
+page{
+    background-color: #FFFFFF;
+}
+
+.container{
+  height:85vh;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;  
+}
+text{
+  text-align: center;
+  color: rgb(64, 115, 150);
+  font-style: initial;
+  font-weight: 600;
+  font-size: 40rpx;
+}
+.homepage_button{
+  color: green;
+  bottom:0;
+  position:fixed;
+  width:100%;
+}
+.about-banner{
+  width:300rpx;
+  height:300rpx;
+  border-radius: 50%
+}

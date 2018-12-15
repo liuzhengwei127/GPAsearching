@@ -1,0 +1,17 @@
+{
+  "pages": [
+    
+    "pages/login/login",
+    "pages/binding/binding",
+    "pages/homepage/homepage",
+    "pages/score/score"
+    
+       
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "软院学积分查询",
+    "navigationBarTextStyle": "black"
+  }
+}
